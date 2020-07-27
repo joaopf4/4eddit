@@ -8,23 +8,18 @@ A try of replicate Reddit prototype
 ## Projeto 4eddit front-end
 
 <p align="center">
-  <img src="https://i.imgur.com/GnNdSlH.png"/>
+  <img height="250px" src="https://i.imgur.com/GnNdSlH.png"/>
 </p>
 
 #### Neste projeto trabalhamos na reprodução de um modelo simplificado de funcionamento e consumo de uma API que se assemelha a aplicação do Reddit, onde posts podem receber <i>likes</i> e <i>unlikes</i>
 
 
 <p align="center">
-  <img src="https://imgur.com/xUhQLtc"/>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
   <img src="https://img.shields.io/static/v1?label=firebase&message=deploy&color=yellow&style=for-the-badge&logo=FIREBASE"/>
   <img src="https://img.shields.io/static/v1?label=redux&message=library&color=purple&style=for-the-badge&logo=REDUX"/>
   <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
 </p>
 
 > Status do Projeto: Em desenvolvimento :warning: 
