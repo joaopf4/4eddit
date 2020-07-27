@@ -7,9 +7,12 @@ A try of replicate Reddit prototype
 
 ## Projeto 4eddit front-end
 
-```
-  Aqui trabalhamos na reprodução do modelo base de funcionamento e consumo de uma API que se assemelha a aplicação da rede Reddit, onde posts podem 
-```
+<p align="center">
+  <img src="https://i.imgur.com/GnNdSlH.png"/>
+</p>
+
+#### Neste projeto trabalhamos na reprodução de um modelo simplificado de funcionamento e consumo de uma API que se assemelha a aplicação do Reddit, onde posts podem receber <i>likes</i> e <i>unlikes</i>
+
 
 <p align="center">
   <img src="https://imgur.com/xUhQLtc"/>
@@ -135,7 +138,7 @@ npm start
 | :---: |
 &
 | [<img src="https://media-exp1.licdn.com/dms/image/C4D03AQFffOc1nWKqGA/profile-displayphoto-shrink_800_800/0?e=1601510400&v=beta&t=rh0YwZkZOTQ1oDkAcxD4XImKg8aYW3ypUCwJRxYTlmw" width=115><br><sub>Igor Deleposti </sub>](https://www.linkedin.com/in/igordelesposti/) | 
-| :---: |
+|  |
 
 ## Licença 
 
