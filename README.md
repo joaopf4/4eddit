@@ -138,7 +138,7 @@ npm start
 | :---: |
 &
 | [<img src="https://media-exp1.licdn.com/dms/image/C4D03AQFffOc1nWKqGA/profile-displayphoto-shrink_800_800/0?e=1601510400&v=beta&t=rh0YwZkZOTQ1oDkAcxD4XImKg8aYW3ypUCwJRxYTlmw" width=115><br><sub>Igor Deleposti </sub>](https://www.linkedin.com/in/igordelesposti/) | 
-|  |
+
 
 ## Licença 
 
