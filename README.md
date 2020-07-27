@@ -16,13 +16,12 @@ A try of replicate Reddit prototype
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=firebase&message=deploy&color=yellow&style=for-the-badge&logo=FIREBASE"/>
   <img src="https://img.shields.io/static/v1?label=redux&message=library&color=purple&style=for-the-badge&logo=REDUX"/>
   <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
   <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
 </p>
 
-> Status do Projeto: Em desenvolvimento :warning: 
+> Status do Projeto: Completo
 
 ## Descrição do Projeto
 
