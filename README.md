@@ -29,7 +29,7 @@
 
 > Status do Projeto: Completo
 
-## Resumo das funcionalidades:
+## Resumo do projeto e suas funcionalidades:
 
 <p align="justify"> 
 Neste projeto, feito em dupla de pair programming, construiímos e integramos uma aplicação front-end com uma API, conectando o front com endpoints que possibilitam que:
