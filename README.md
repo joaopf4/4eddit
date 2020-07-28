@@ -8,7 +8,6 @@
 
 :dash: [Deploy da aplicação](http://flat-limit.surge.sh/)
 
-<br>
 
 [Documentação da API consumida no projeto](https://documenter.getpostman.com/view/674905/SzYXXKEE?version=latest#08adf102-4d87-4f70-9dc3-b3c321b29739)
 
@@ -66,7 +65,7 @@ Com o prazo de 4 dias para o projeto, preferimos não completar implementações
 <p align="justify">
  A página de feed deverá mostrar todos os posts, além de um formulário para a criação de post. O formulário possui apenas o campo de texto. Cada post mostrará o nome de usuário que postou, o texto do post, o número de votos (positivo ou negativo) e o número de comentários. Caso o usuário tenha votado positiva ou negativamente, isso deverá estar indicado. Todas essa informações serão fornecidas pela API.
   Quando o usuário clicar em um post, ele deverá ser redirecionado para a página do respectivo post.
-  Quando um usuário clicar em votar (positiva ou negativamente), uma requisição deverá ser feita indicando a "direção" do voto. Um voto positivo é indicado com o número ```1```. Um voto negativo é indicado com o número ```-1```. Para remover um voto, a direção deve ser ```0```.
+  Quando um usuário clicar em votar (positiva ou negativamente), uma requisição deverá ser feita indicando a "direção" do voto. Um voto positivo é indicado com o número 1. Um voto negativo é indicado com o número -1. Para remover um voto, a direção deve ser 0.
   Essa página só pode ser acessada por um usuário logado. Caso o usuário não esteja logado, deverá ser redirecionado para a página de login.
 </p>
 
