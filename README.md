@@ -32,14 +32,14 @@
 ## Resumo do projeto e suas funcionalidades:
 
  
-Neste projeto, feito em dupla de pair programming, construiímos e integramos uma aplicação front-end com uma API, conectando o front com endpoints que possibilitam que:
+Neste projeto, feito em dupla de pair programming, construímos e integramos uma aplicação front-end com uma API, conectando o front com endpoints que possibilitam:
   
-- O usuário se cadastre, acesse o feed de sua home logo após concluir o cadastro (com sucesso)
-- Crie e publique posts com conteúdos de texto, assim como demais usuários de outros fronts integrados na mesma API
-- Comente nos posts renderizados no feed
-- Dê likes e dislikes nos posts e nos comentários dos posts
+- Cadastro de usuário através de email, nome e senha, dando acesso ao feed de sua home logo após concluir o cadastro (com sucesso)
+- Publicação de posts com conteúdos de texto, assim como demais usuários de outros fronts integrados na mesma API
+- Comentários nos posts renderizados no feed
+- Função de likes e dislikes nos posts e nos comentários dos posts
 
-Acrescentamos outros elementos visuais que ficaram meramente ilustrativos, como um input de busca e o ícone de salvar posts. 
+Acrescentamos outros elementos visuais que ficaram meramente ilustrativos no layout, como um input de busca e o ícone de salvar posts. 
 Com o prazo de 4 dias para o projeto, preferimos não completar implementações lógicas mais complexas para nós naquele momento.
 
 
