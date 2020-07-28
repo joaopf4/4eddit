@@ -7,6 +7,9 @@ A try of replicate Reddit prototype
 
 ## Projeto 4eddit front-end
 
+:dash: [Deploy da aplicação](http://flat-limit.surge.sh/)
+[Documentação da API consumida no projeto](https://documenter.getpostman.com/view/674905/SzYXXKEE?version=latest#08adf102-4d87-4f70-9dc3-b3c321b29739)
+
 <p align="center">
   <img width="300px" src="https://i.imgur.com/GnNdSlH.png"/>
 </p>
@@ -20,9 +23,21 @@ A try of replicate Reddit prototype
   <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
   <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
   <img src="https://img.shields.io/static/v1?label=styled-component&message=library&color=blue&style=for-the-badge&logo=STYLED-COMPONENTS"/>
+   <img src="https://img.shields.io/static/v1?label=material-ui&message=library&color=blue&style=for-the-badge&logo=MATERIAL-UI"/>
 </p>
 
 > Status do Projeto: Completo
+
+##Resumo das funcionalidades:
+
+Nesse projeto, integramos uma aplicação front-end com uma API, conectando o front com endpoints que possibilitam que:
+- O usuário se cadastre, acesse o feed de sua home logo após concluir o cadastro (com sucesso)
+- Crie e publique posts com conteúdos de texto, assim como demais usuários de outros fronts integrados na mesma API
+- Comente nos posts renderizados no feed
+- Dê likes e dislikes nos posts e nos comentários dos posts
+Acrescentamos outros elementos visuais que ficaram meramente ilustrativos, como um input de busca e o ícone de salvar posts. 
+Com o prazo de 4 dias para o projeto, preferimos não completar implementações lógicas mais complexas para nós naquele momento.
+
 
 ## Descrição do Projeto 
 
@@ -59,8 +74,6 @@ A try of replicate Reddit prototype
   Essa página só pode ser acessada por um usuário logado. Caso o usuário não esteja logado, deverá ser redirecionado para a página de login.
 </p>
 
-### Documentação da API
-- [Documentação da API consumida no projeto](https://documenter.getpostman.com/view/674905/SzYXXKEE?version=latest#08adf102-4d87-4f70-9dc3-b3c321b29739)
 
 ## Desenvolvido Por :octocat:
 
