@@ -36,11 +36,13 @@ A try of replicate Reddit prototype
   A página de login possui dois campos de texto: email e senha. O comportamento será o mesmo da página de login feita semana passada. Ao fazer o login, o usuário deverá ser redirecionado para a página de feed.
   A página possui também um botão "Cadastrar", que leva o usuário para a página de cadastro.
 </p>
+
 ### Página de Cadastro
 <p align="center"><img src="https://i.imgur.com/hMIxUHe.png"/></p>
 <p align="justify">
   A página de cadastro possui 3 campos: nome de usuário, email e senha. O endpoint de cadastro retornará as mesmas informações do endpoint de login. Portanto, após cadastrar, o usuário deverá ser redirecionado para a página de feed, já estando logado (ou seja, com o token salvo no LocalStorage)  .
 </p>
+
 ### Página de feed (lista de posts)
 <p align="center"><img src="https://i.imgur.com/GNNYwih.png"/></p>
 <p align="justify">
