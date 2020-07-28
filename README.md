@@ -1,5 +1,4 @@
 # Labenu | Desenvolvimento Web Full Stack
-A try of replicate Reddit prototype
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59856574/86274338-e7bbd280-bba7-11ea-9b0f-312418c0c364.png"/>
@@ -8,6 +7,9 @@ A try of replicate Reddit prototype
 ## Projeto 4eddit front-end
 
 :dash: [Deploy da aplicação](http://flat-limit.surge.sh/)
+
+<br>
+
 [Documentação da API consumida no projeto](https://documenter.getpostman.com/view/674905/SzYXXKEE?version=latest#08adf102-4d87-4f70-9dc3-b3c321b29739)
 
 <p align="center">
