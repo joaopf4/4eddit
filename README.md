@@ -19,7 +19,7 @@ A try of replicate Reddit prototype
   <img src="https://img.shields.io/static/v1?label=redux&message=library&color=purple&style=for-the-badge&logo=REDUX"/>
   <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
   <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
-  <img src="https://img.shields.io/static/v1?label=styled&components=language&color=blue&style=for-the-badge&logo=STYLED-COMPONENTS"/>
+  <img src="https://img.shields.io/static/v1?label=styled-component&message=library&color=blue&style=for-the-badge&logo=STYLED-COMPONENTS"/>
 </p>
 
 > Status do Projeto: Completo
@@ -32,18 +32,18 @@ A try of replicate Reddit prototype
 
 #### Página de Login
 <p align="justify">
-   <img src="https://i.imgur.com/X8MccTG.png"/>
+   <img src="https://i.imgur.com/X8MccTG.png"/><br>
   A página de login possui dois campos de texto: email e senha. O comportamento será o mesmo da página de login feita semana passada. Ao fazer o login, o usuário deverá ser redirecionado para a página de feed.
   A página possui também um botão "Cadastrar", que leva o usuário para a página de cadastro.
 </p>
 #### Página de Cadastro
 <p align="justify">
-  <img src="https://i.imgur.com/hMIxUHe.png"/>
+  <img src="https://i.imgur.com/hMIxUHe.png"/><br>
   A página de cadastro possui 3 campos: nome de usuário, email e senha. O endpoint de cadastro retornará as mesmas informações do endpoint de login. Portanto, após cadastrar, o usuário deverá ser redirecionado para a página de feed, já estando logado (ou seja, com o token salvo no LocalStorage)  .
 </p>
 #### Página de feed (lista de posts)
 <p align="justify">
-  <img src="https://i.imgur.com/GNNYwih.png"/>
+  <img src="https://i.imgur.com/GNNYwih.png"/><br>
  A página de feed deverá mostrar todos os posts, além de um formulário para a criação de post. O formulário possui apenas o campo de texto. Cada post mostrará o nome de usuário que postou, o texto do post, o número de votos (positivo ou negativo) e o número de comentários. Caso o usuário tenha votado positiva ou negativamente, isso deverá estar indicado. Todas essa informações serão fornecidas pela API.
   Quando o usuário clicar em um post, ele deverá ser redirecionado para a página do respectivo post.
   Quando um usuário clicar em votar (positiva ou negativamente), uma requisição deverá ser feita indicando a "direção" do voto. Um voto positivo é indicado com o número ```1```. Um voto negativo é indicado com o número ```-1```. Para remover um voto, a direção deve ser ```0```.
@@ -51,8 +51,8 @@ A try of replicate Reddit prototype
 </p>
 
 #### Página de post
- <img src="https://i.imgur.com/A1YCI3d.png"/>
-<p align="justify">
+ <p align="justify">
+<img src="https://i.imgur.com/A1YCI3d.png"/><br>
   A página de um post mostrará o mesmo card de post da página de feed, com o usuário, texto, curtidas e número de comentários. Abaixo, terá um formulário para criação de comentários e os cards de comentários. A estrutura é muito similar à do post, mas comentários não possuem outros comentários dentro deles. A lógica de votos é a mesma do post.
   Essa página só pode ser acessada por um usuário logado. Caso o usuário não esteja logado, deverá ser redirecionado para a página de login.
 </p>
