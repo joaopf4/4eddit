@@ -28,8 +28,9 @@ A try of replicate Reddit prototype
 
 > Status do Projeto: Completo
 
-##Resumo das funcionalidades:
+## Resumo das funcionalidades:
 
+<p align="justify"> 
 Nesse projeto, integramos uma aplicação front-end com uma API, conectando o front com endpoints que possibilitam que:
 - O usuário se cadastre, acesse o feed de sua home logo após concluir o cadastro (com sucesso)
 - Crie e publique posts com conteúdos de texto, assim como demais usuários de outros fronts integrados na mesma API
@@ -37,7 +38,7 @@ Nesse projeto, integramos uma aplicação front-end com uma API, conectando o fr
 - Dê likes e dislikes nos posts e nos comentários dos posts
 Acrescentamos outros elementos visuais que ficaram meramente ilustrativos, como um input de busca e o ícone de salvar posts. 
 Com o prazo de 4 dias para o projeto, preferimos não completar implementações lógicas mais complexas para nós naquele momento.
-
+</p>
 
 ## Descrição do Projeto 
 
