@@ -6,7 +6,7 @@
 
 ## Projeto 4eddit front-end
 
-:dash: [Deploy da aplicação](http://flat-limit.surge.sh/)
+:dash: [Deploy da aplicação](http://furry-control.surge.sh/)
 
 
 [Documentação da API consumida no projeto](https://documenter.getpostman.com/view/674905/SzYXXKEE?version=latest#08adf102-4d87-4f70-9dc3-b3c321b29739)
@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/static/v1?label=redux&message=library&color=purple&style=for-the-badge&logo=REDUX"/>
   <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
   <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
-  <img src="https://img.shields.io/static/v1?label=styled-component&message=library&color=blue&style=for-the-badge&logo=STYLED-COMPONENTS"/>
+  <img src="https://img.shields.io/static/v1?label=styled-component&message=library&color=pink&style=for-the-badge&logo=STYLED-COMPONENTS"/>
    <img src="https://img.shields.io/static/v1?label=material-ui&message=library&color=blue&style=for-the-badge&logo=MATERIAL-UI"/>
 </p>
 
