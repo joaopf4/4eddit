@@ -8,7 +8,7 @@ A try of replicate Reddit prototype
 ## Projeto 4eddit front-end
 
 <p align="center">
-  <img height="250px" src="https://i.imgur.com/GnNdSlH.png"/>
+  <img width="300px" src="https://i.imgur.com/GnNdSlH.png"/>
 </p>
 
 #### Neste projeto trabalhamos na reprodução de um modelo simplificado de funcionamento e consumo de uma API que se assemelha a aplicação do Reddit, onde posts podem receber <i>likes</i> e <i>unlikes</i>
@@ -19,112 +19,46 @@ A try of replicate Reddit prototype
   <img src="https://img.shields.io/static/v1?label=redux&message=library&color=purple&style=for-the-badge&logo=REDUX"/>
   <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
   <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
+  <img src="https://img.shields.io/static/v1?label=styled&components=language&color=blue&style=for-the-badge&logo=STYLED-COMPONENTS"/>
 </p>
 
 > Status do Projeto: Completo
 
-## Descrição do Projeto
+## Descrição do Projeto 
 
 <p align="justify"> 
-  Vamos finalizar o curso com chave de ouro fazendo o frontend para simular o Spotify. 
-</p>
-<p align="justify"> 
-  O Spotenu é um projeto que visa facilitar o acesso a músicas pelo mundo. Para isso, vamos dar suporte para dois tipos de usuários: as bandas (ou músicos) e os ouvintes (usuários que consomem as músicas).
-  Além disso, nós vamos montar uma operação com funcionários próprios que precisam gerenciar os dados que circulam no nosso sistema. Eles serão os nossos administradores. 
+ Essa semana, vocês irão implementar uma rede social! Já fizemos vários protótipos de redes sociais, mas nenhuma delas realmente funcional. A ideia agora é fazer uma rede real, com cadastro, login, posts, likes e comentários. Para isso, iremos nos basear no reddit.com.
 </p>
 
-#### Usuários Músicos
+#### Página de Login
 <p align="justify">
-  Vamos começar a explicar os usuários que são uma banda. Mesmo que haja músicos solos, nós vamos representar todos eles por uma banda, que deve possuir um nome, um nickname, uma descrição (onde se possa escrever qualquer texto de qualquer tamanho) e uma senha. 
-  Quando uma banda de cadastra, ela precisa esperar que um administrador aprove o seu cadastro para pode utilizar a nossa aplicação. 
+   <img src="https://i.imgur.com/X8MccTG.png"/>
+  A página de login possui dois campos de texto: email e senha. O comportamento será o mesmo da página de login feita semana passada. Ao fazer o login, o usuário deverá ser redirecionado para a página de feed.
+  A página possui também um botão "Cadastrar", que leva o usuário para a página de cadastro.
 </p>
+#### Página de Cadastro
 <p align="justify">
-  As funcionalidades relacionadas a músicos são: criação, edição e deleção de álbuns; e criação, edição e deleção de músicas. Para criar um álbum, devemos informar o nome e relacioná-lo com um conjunto de gêneros. Um álbum pode ser de mais de um gênero musical. Na edição, é possível alterar o nome do álbum e os gêneros dele. Para criar uma música, os músicos devem informar o nome da música e o álbum a qual ela está relacionada.
-Só é possível alterar o nome da música. Por fim, sobre a deleção de músicas, não há muito o que explicar, mas a de álbuns tem um comportamento importante: ao se deletar um álbum todas as músicas devem ser deletadas também.  
+  <img src="https://i.imgur.com/hMIxUHe.png"/>
+  A página de cadastro possui 3 campos: nome de usuário, email e senha. O endpoint de cadastro retornará as mesmas informações do endpoint de login. Portanto, após cadastrar, o usuário deverá ser redirecionado para a página de feed, já estando logado (ou seja, com o token salvo no LocalStorage)  .
 </p>
+#### Página de feed (lista de posts)
 <p align="justify">
-Para se logar, o usuário músico pode fornecer o email ou o nickname (junto com a senha). Caso ele não tenha sido aprovado ainda, ele não deve ser capaz de se logar na aplicação.
+  <img src="https://i.imgur.com/GNNYwih.png"/>
+ A página de feed deverá mostrar todos os posts, além de um formulário para a criação de post. O formulário possui apenas o campo de texto. Cada post mostrará o nome de usuário que postou, o texto do post, o número de votos (positivo ou negativo) e o número de comentários. Caso o usuário tenha votado positiva ou negativamente, isso deverá estar indicado. Todas essa informações serão fornecidas pela API.
+  Quando o usuário clicar em um post, ele deverá ser redirecionado para a página do respectivo post.
+  Quando um usuário clicar em votar (positiva ou negativamente), uma requisição deverá ser feita indicando a "direção" do voto. Um voto positivo é indicado com o número ```1```. Um voto negativo é indicado com o número ```-1```. Para remover um voto, a direção deve ser ```0```.
+  Essa página só pode ser acessada por um usuário logado. Caso o usuário não esteja logado, deverá ser redirecionado para a página de login.
 </p>
 
-#### Usuários Ouvintes
+#### Página de post
+ <img src="https://i.imgur.com/A1YCI3d.png"/>
 <p align="justify">
-  Os ouvintes são divididos em duas categorias: pagantes e não pagantes. 
-  Os não pagantes só podem acessar a funcionalidade de busca da música, que deve fazer uma busca por termos dos nomes das músicas, com filtro de gênero opcional.
-</p>
-<p align="justify">
-  Já os pagantes tem acesso a isso e mais: playlists próprias. Ao criar uma playlist, basta fornecer um nome. Podem ser adicionadas músicas da playlist, ou retira-las. 
-  Todas as playlist são inicialmente privadas e só podem ser modificadas (ou adicionar e retirar músicas) pelo usuário criador. 
-  Ele pode tornar a playlist colaborativa, permitindo que qualquer um a veja; e, então, quem for seguidor da playlist também pode a modificar.
-</p>
-<p align="justify">
-  Um usuário ouvinte deve fornecer o nome, o email, nickname e senha no cadastro. Para logar, ele pode usar tanto o email como o nickname (junto com a senha).  
+  A página de um post mostrará o mesmo card de post da página de feed, com o usuário, texto, curtidas e número de comentários. Abaixo, terá um formulário para criação de comentários e os cards de comentários. A estrutura é muito similar à do post, mas comentários não possuem outros comentários dentro deles. A lógica de votos é a mesma do post.
+  Essa página só pode ser acessada por um usuário logado. Caso o usuário não esteja logado, deverá ser redirecionado para a página de login.
 </p>
 
-#### Usuários Administradores 
-
-<p align="justify">
-  Os usuários administradores são responsáveis pelo gerenciamento do nosso projeto. 
-  Somente um usuário administrador pode cadastrar outro usuário administrador, passando as informações: nome, email, nickname e senha. 
-</p>
-<p align="justify">
-  Eles podem aprovar os músicos (como explicado acima). Além disso, eles também são capazes de adicionar gêneros musicais, passando somente um nome.
-</p>
-<p align="justify">
-  Por fim, há a possibilidade de bloquear qualquer usuário (que não seja um administrador). 
-  Quando um usuário for bloqueado ele não pode mais logar na aplicação. 
-  Para se logar, um administrador pode informar o email ou o nickname (junto com a senha)
-</p>
-
-## Funcionalidades
-
-- Signup de usuário ouvinte
-- Signup de bandas
-- Cadastro de administrador
-- Ver todas as bandas 
-- Aprovação de bandas
-- Login
-- Adicionar Gênero
-- Ver gêneros músicias
-- Criação de álbuns
-- Criação de músicas
-
-## Deploy
-
-<p align="justify">
-  O deploy do projeto foi realizado no firebase e encontra-se disponivel em: https://spotenu-dd294.web.app/
-</p>
-
-## Pré-requisitos
-
-:warning: [Node](https://nodejs.org/en/download/)
-
-:warning: [Npm](https://www.npmjs.com/)
-
-## Como rodar a aplicação :arrow_forward:
-
-No terminal, clone o projeto: 
-
-```
-git clone https://github.com/nauaramelo/spotenu-front.git
-```
-Entre no projeto e instale as dependências através do comando:
-```
-npm install
-```
-Por últomo, suba a aplicação: 
-```
-npm start
-```
-
-## Linguagens, dependencias e libs utilizadas :books:
-
-- [Node](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [Redux](https://redux.js.org/)
-- [Styled Components](https://styled-components.com/)
-- [Axios](https://alligator.io/react/axios-react/)
-- [Material ui](https://material-ui.com/pt/)
-- [Firebase](https://firebase.google.com/)
+#### Documentação da API
+- [Documentação da API consumida no projeto](https://documenter.getpostman.com/view/674905/SzYXXKEE?version=latest#08adf102-4d87-4f70-9dc3-b3c321b29739)
 
 ## Desenvolvido Por :octocat:
 
