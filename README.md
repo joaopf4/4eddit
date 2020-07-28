@@ -8,6 +8,7 @@
 
 :dash: [Deploy da aplicação](http://furry-control.surge.sh/)
 
+![Alt Text](https://github.com/joaopf4/4eddit/blob/master/src/imgs/Design%20sem%20nome.gif)
 
 [Documentação da API consumida no projeto](https://documenter.getpostman.com/view/674905/SzYXXKEE?version=latest#08adf102-4d87-4f70-9dc3-b3c321b29739)
 
