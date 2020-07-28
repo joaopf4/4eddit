@@ -32,7 +32,7 @@
 ## Resumo das funcionalidades:
 
 <p align="justify"> 
-Nesse projeto, integramos uma aplicação front-end com uma API, conectando o front com endpoints que possibilitam que:
+Neste projeto, feito em dupla de pair programming, construiímos e integramos uma aplicação front-end com uma API, conectando o front com endpoints que possibilitam que:
 - O usuário se cadastre, acesse o feed de sua home logo após concluir o cadastro (com sucesso)
 - Crie e publique posts com conteúdos de texto, assim como demais usuários de outros fronts integrados na mesma API
 - Comente nos posts renderizados no feed
