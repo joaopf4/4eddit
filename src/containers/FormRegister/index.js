@@ -41,9 +41,7 @@ class FormRegister extends Component {
         onChange={this.handleInputChange}
           name="username"
           required
-          type="text"
-          inputProps={{pattern: "[A-Za-z-_]{3,}", 
-          title: "O nome deve conter no mínimo 3 letras"}}    
+          type="text"   
           label="Nome de usuário"
           value={username}
           />
