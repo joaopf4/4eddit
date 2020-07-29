@@ -90,6 +90,6 @@ Com o prazo de 4 dias para o projeto, preferimos não completar implementações
 
 
 ## Contato (opcional)
-<João Pedro >
-<joaopfa@hotmail.com>
-<31 988165740>
+João Pedro 
+joaopfa@hotmail.com>
+31 988165740
