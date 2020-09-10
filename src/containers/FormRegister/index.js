@@ -21,11 +21,12 @@ class FormRegister extends Component {
     console.log(this.state.form)
     this.props.createUser(this.state.form)
   }
-  
+
   handleInputChange = (event) => {
     const {name, value} = event.target;
     this.setState ({
-      form: {...this.state.form, [name]: value}
+      form: {...this.state.form, [name]: value}//teste
+      //teste
     })
   }
 
