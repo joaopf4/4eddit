@@ -3,8 +3,8 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { connect } from "react-redux";
 import Header from '../../components/Header'
-import { createUser } from '../../actions/user'
 import {Body, ContainerLogin, Form} from './styled'
+import { createUser } from '../../actions/user'
 
 
 
@@ -25,8 +25,8 @@ class FormRegister extends Component {
   handleInputChange = (event) => {
     const {name, value} = event.target;
     this.setState ({
-      form: {...this.state.form, [name]: value}//teste
-      //teste
+      form: {...this.state.form, [name]: value}//testando
+      //testando
     })
   }
 
