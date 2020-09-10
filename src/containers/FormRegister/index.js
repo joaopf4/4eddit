@@ -16,18 +16,19 @@ class FormRegister extends Component {
       form: {}
     }
   }
-
+  handleSubmmit = (event) => {
+    event.preventDefault();
+    console.log(this.state.form)
+    this.props.createUser(this.state.form)
+  }
+  
   handleInputChange = (event) => {
     const {name, value} = event.target;
     this.setState ({
       form: {...this.state.form, [name]: value}
     })
   }
-  handleSubmmit = (event) => {
-    event.preventDefault();
-    console.log(this.state.form)
-    this.props.createUser(this.state.form)
-  }
+
 
   render() {
     const {username, email, password} = this.state;
